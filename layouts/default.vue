@@ -1,12 +1,13 @@
 <script setup>
 useHead({
-  title: 'My App',
+  title: 'Ask Matcom',
   // or, instead:
   // titleTemplate: (title) => `My App - ${title}`,
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  viewport: 'width=device-width, initial-scale=1',
+  htmlAttrs:{lang:'es'},
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    { name: 'description', content: 'Sitio para resolver dudas y sugerencias de la facultad de matemática y computación de la Universidad de La Habana' }
   ]
 })
 </script>
