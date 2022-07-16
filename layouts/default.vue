@@ -7,8 +7,9 @@ useHead({
   htmlAttrs:{lang:'es'},
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'Sitio para resolver dudas y sugerencias de la facultad de matemática y computación de la Universidad de La Habana' }
-  ]
+    { name: 'description', content: 'Sitio de dudas y sugerencias de la facultad de matemática y computación de la Universidad de La Habana' }
+  ],
+  link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]
 })
 </script>
 
