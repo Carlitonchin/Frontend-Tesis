@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'RobotoSlab';
-    src: url('RobotoSlab-Thin.ttf')  format('truetype');
+    src: url('assets/fonts/RobotoSlab-Thin.ttf')  format('truetype');
   }
 
 @font-face {
     font-family: 'IndieFlower';
-    src: url('IndieFlower-Regular.ttf')  format('truetype');
+    src: url('assets/fonts/IndieFlower-Regular.ttf')  format('truetype');
   }
   
 
