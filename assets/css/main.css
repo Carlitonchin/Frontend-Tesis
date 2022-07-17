@@ -18,6 +18,10 @@ body
   --back-color: #242323;
   --primary-color: #F32424;
   --text-color:white;
+  --primary-hover: #aa2020;
+  --secondary-hover:rgb(218, 207, 207);
+  --nav-height:8vh;
+  --nav-min-height:40px;
 }  
 
 body
@@ -36,10 +40,14 @@ body
 .logo
 {
     font-family: 'IndieFlower', sans-serif;
-    text-decoration: none;
-    color: var(--text-color);
 }
 
 .clickable{
   cursor: pointer;
+}
+
+.without-decoration
+{
+  text-decoration: none;
+    color: var(--text-color);
 }
