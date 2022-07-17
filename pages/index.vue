@@ -1,19 +1,17 @@
 <script setup>
-    const options = ref(
-        [
-            {id:0,text:"Inicio", link:"#container"},
-            {id:1,text:"FAQ", link:"#faq"},
-            {id:2,text:"Dashbord", link:"/dashbord"}
-        ])
+    import nav_state from '~~/state/nav-state';
 </script>
 
 <template>
 <NuxtLayout>
  
-  <NavBar :options="options">
+  <NavBar :options="nav_state('Inicio')">
     <template #logo>
       <Logo/>
     </template>  
   </NavBar>
+
+  <PageHome/>
+
 </NuxtLayout>
 </template>

@@ -8,9 +8,10 @@
     src: url('assets/fonts/IndieFlower-Regular.ttf')  format('truetype');
   }
 
-body
+*
 {
   margin: 0;
+  padding: 0;
 }
 
 :root
@@ -34,7 +35,11 @@ body
 .first-color
 {
     color: var(--primary-color);
-    font-size: larger;
+}
+
+.larger
+{
+  font-size: larger;
 }
 
 .logo
