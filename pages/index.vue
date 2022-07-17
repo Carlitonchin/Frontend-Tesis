@@ -2,6 +2,11 @@
 
 <template>
 <NuxtLayout>
-  <Logo/>
+ 
+  <NavBar>
+    <template #logo>
+      <Logo/>
+    </template>  
+  </NavBar>
 </NuxtLayout>
 </template>
