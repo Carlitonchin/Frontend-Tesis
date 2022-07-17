@@ -8,6 +8,9 @@
 <style scoped>
     #container
     {
-        background: rgba(0, 0, 0, 0.185);
+        background: rgba(0, 0, 0, 0.281);
+-webkit-box-shadow: -4px -26px 30px 21px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px -26px 30px 21px rgba(0,0,0,0.75);
+box-shadow: -4px -26px 30px 21px rgba(0,0,0,0.75);
     }
 </style>
