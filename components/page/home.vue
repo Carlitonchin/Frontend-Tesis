@@ -10,6 +10,7 @@
   #home
   {
     height: 100vh;
+    text-align: center;
   }
 
   #title
