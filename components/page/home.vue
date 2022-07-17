@@ -1,5 +1,5 @@
 <template>
-    <section id="home" class="flex-vertical flex-center-align flex-center-justify">
+    <section id="home" class="flex-vertical flex-center-align flex-center-justify center90">
         <h1 id="title">No se quede con la duda</h1>
         <h2 id="subtitle">Estamos para servirle</h2>
         <UtilLoginRegister/>
