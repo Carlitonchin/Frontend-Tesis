@@ -7,22 +7,34 @@
     font-family: 'IndieFlower';
     src: url('assets/fonts/IndieFlower-Regular.ttf')  format('truetype');
   }
-  
+
+:root
+{
+  --back-color: #242323;
+  --primary-color: #F32424;
+  --text-color:white;
+}  
 
 body
 {
-    background: #242323;
-    color: white;
+    background: var(--back-color);
+    color: var(--text-color);
     font-family: 'RobotoSlab', sans-serif ;
 }
 
 .first-color
 {
-    color: #F32424;
+    color: var(--primary-color);
     font-size: larger;
 }
 
 .logo
 {
     font-family: 'IndieFlower', sans-serif;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.clickable{
+  cursor: pointer;
 }
