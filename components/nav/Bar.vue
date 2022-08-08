@@ -22,7 +22,7 @@
 <template>
     <div id="bar">
 
-        <div id="container" class="shadow flex-horizontal flex-center-align flex-space-between p3 p1-top-bottom">
+        <div id="container" class="flex-horizontal flex-center-align flex-space-between p3 p1-top-bottom">
         <slot name="logo"/>
 
         <NavOptionsMobileComponent v-if="isMobile" :options="props.options"/>
@@ -44,6 +44,9 @@
     height: 8vh;
         min-height: 40px;
     background: rgba(0, 0, 0, 0.281);
+     -webkit-box-shadow: -4px -26px 30px 21px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px -26px 30px 21px rgba(0,0,0,0.75);
+  box-shadow: -4px -26px 30px 21px rgba(0,0,0,0.75);
 
 }
 

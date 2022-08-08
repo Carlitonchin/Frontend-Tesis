@@ -16,11 +16,11 @@
 </script>
 
 <template>
-<div>
-  <div id="head" class="flex-horizontal flex-center-align flex-space-between">
+<div id="s-container">
+  <div class="flex-horizontal flex-center-align flex-space-between">
     <NuxtLink to="/" class="without-decoration secondary button">Volver</NuxtLink>
     <h1 id="s-title">Regístrate en <span id="s-ask">Ask</span>Matcom</h1>
-    <a id="hide">
+    <a id="s-hide">
       <!--Para que quede el texto en el centro
       en el css le pongo el color igual al fondo
       -->
@@ -29,7 +29,7 @@
 
   </div>
 
-  <div id="s-container-form">
+  <div id="s-container-form" class="shadow p2 border">
     <slot/>
   </div>
 
@@ -38,8 +38,8 @@
 
 <style scoped>
 
-#head{
-  width: 90%;
+#s-container{
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,12 +48,12 @@
     color:var(--primary-color);
   }
 
-#hide{
+#s-hide{
   color:var(--back-color);
 }
 
 #s-container-form{
-  background:black;
+  margin-top:1rem;
 }
 
 </style>
