@@ -17,7 +17,43 @@
 
 <template>
 <div>
-    hola
-  <slot/>
+  <div id="head" class="flex-horizontal flex-center-align flex-space-between">
+    <NuxtLink to="/" class="without-decoration secondary button">Volver</NuxtLink>
+    <h1 id="s-title">Regístrate en <span id="s-ask">Ask</span>Matcom</h1>
+    <a id="hide">
+      <!--Para que quede el texto en el centro
+      en el css le pongo el color igual al fondo
+      -->
+      Volver
+    </a>
+
+  </div>
+
+  <div id="s-container-form">
+    <slot/>
+  </div>
+
 </div>
 </template>
+
+<style scoped>
+
+#head{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  #s-ask{
+    color:var(--primary-color);
+  }
+
+#hide{
+  color:var(--back-color);
+}
+
+#s-container-form{
+  background:black;
+}
+
+</style>
