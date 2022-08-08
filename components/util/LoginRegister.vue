@@ -1,11 +1,11 @@
 <template>
     <div class="flex-horizontal flex-center-align">
-            <div id="login" class="button secondary">
+            <NuxtLink to="/login" id="login" class="button secondary without-decoration">
                 Iniciar Sesión
-            </div>
-            <div class="button primary">
+            </NuxtLink>
+            <NuxtLink to="signup" class="button primary without-decoration">
                 Registrarse
-            </div>
+            </NuxtLink>
         </div>
 </template>
 
