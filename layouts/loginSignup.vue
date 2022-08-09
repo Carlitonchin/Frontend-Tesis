@@ -1,5 +1,4 @@
 <script setup>
-  import nav_state from '~~/state/nav-state';
   const {title} = defineProps(['title'])
   useHead({
     title: title,
@@ -16,7 +15,7 @@
 </script>
 
 <template>
-<div id="s-container">
+<div id="s-container" class="flex-vertical">
   <div class="flex-horizontal flex-center-align flex-space-between">
     <NuxtLink to="/" class="without-decoration secondary button">Volver</NuxtLink>
     <h1 id="s-title">Regístrate en <span id="s-ask">Ask</span>Matcom</h1>
@@ -39,9 +38,10 @@
 <style scoped>
 
 #s-container{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+  height: 65vh;
+  margin: auto;
+  margin-top: calc(65vh / 2 / 2 / 2);
 }
 
   #s-ask{
@@ -54,6 +54,7 @@
 
 #s-container-form{
   margin-top:1rem;
+  height: 100%;
 }
 
 </style>

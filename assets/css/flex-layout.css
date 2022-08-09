@@ -20,6 +20,11 @@
     justify-content: center;
 }
 
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
 .flex-space-between
 {
     justify-content: space-between;
@@ -28,4 +33,8 @@
 .flex-space-around
 {
     justify-content: space-around;
+}
+
+.flex-align-right{
+    align-items: flex-end;
 }
